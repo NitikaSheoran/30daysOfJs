@@ -52,9 +52,9 @@ console.log("Less than equal to : 5 <= 5 is", 5 <= 5);  //output: Less than equa
 
 // Task 10 : Write a program to compare two numbers using == and === and log the result to console
 // equal to operator >
-console.log("Greater than equal to : 3 == 3 is", 3 == 3);  //output: Greater than equal to : 3 == 3 is true
+console.log("equal to : 3 == 3 is", 3 == 3);  //output: equal to : 3 == 3 is true
 // strictly equal to operator
-console.log("Less than equal to : 5 === '5'  is", 5 === '5');  //output: Less than equal to : 5 === '5'  is false
+console.log("Strictly equal to : 5 === '5'  is", 5 === '5');  //output: strictly equal to : 5 === '5'  is false
 
 
 // Activity 4: Logical Operators
