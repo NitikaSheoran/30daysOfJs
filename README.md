@@ -7,3 +7,5 @@
 *Day 3: Control Structures* &nbsp; &#10003;
 
 *Day 4:  Loops*  &nbsp; &#10003;
+
+*Day 5:  Functions*  &nbsp; &#10003;
