@@ -5,3 +5,5 @@
 *Day 2: Operators* &nbsp; &#10003;
 
 *Day 3: Control Structures* &nbsp; &#10003;
+
+*Day 4:  Loops*  &nbsp; &#10003;
