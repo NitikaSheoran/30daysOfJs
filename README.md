@@ -12,4 +12,4 @@
 
 *Day 6: Arrays*  &nbsp; &#10003;
 
-8Day 7:  Objects*  &nbsp; &#10003;
+*Day 7:  Objects*  &nbsp; &#10003;
