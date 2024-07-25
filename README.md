@@ -9,3 +9,5 @@
 *Day 4:  Loops*  &nbsp; &#10003;
 
 *Day 5:  Functions*  &nbsp; &#10003;
+
+*Day 6: Arrays*  &nbsp; &#10003;
