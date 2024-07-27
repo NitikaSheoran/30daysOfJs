@@ -15,3 +15,5 @@
 *Day 7:  Objects*  &nbsp; &#10003;
 
 *Day 8:   ES6+ features*  &nbsp; &#10003;
+
+*Day 9:  DOM Manipulation*   &nbsp; &#10003;
