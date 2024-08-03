@@ -9,12 +9,12 @@ const student = {
         return 9.34;
     }
 };
-export function modulo(a,b){
+function modulo(a,b){
     return a%b;
 }
-export default multiplication(a,b=1,c=1){
+export default function multiplication(a,b=1,c=1){
     return a*b*c;
 }
 export{
-    add,student
+    add,student,modulo
 }
