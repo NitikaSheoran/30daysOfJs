@@ -19,3 +19,9 @@
 *Day 9:  DOM Manipulation*   &nbsp; &#10003;
 
 *Day 10:  Event Handling*  &nbsp; &#10003;
+
+*Day 11:  Promises and Async/Await* &nbsp; &#10003;
+
+*Day 12:  Error Handling*   &nbsp; &#10003;
+
+*Day 13:  Modules*    &nbsp; &#10003;
