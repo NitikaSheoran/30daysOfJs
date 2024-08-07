@@ -29,3 +29,5 @@
 *Day 14: Classes*     &nbsp; &#10003;
 
 *Day 15: Closures*     &nbsp; &#10003;
+
+*Day 16: Recursion*    &nbsp; &#10003;
