@@ -25,3 +25,7 @@
 *Day 12:  Error Handling*   &nbsp; &#10003;
 
 *Day 13:  Modules*    &nbsp; &#10003;
+
+*Day 14: Classes*     &nbsp; &#10003;
+
+*Day 15: Closures*     &nbsp; &#10003;
