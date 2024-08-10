@@ -31,3 +31,5 @@
 *Day 15: Closures*     &nbsp; &#10003;
 
 *Day 16: Recursion*    &nbsp; &#10003;
+
+*Day 17: Data Structures*    &nbsp; &#10003;
