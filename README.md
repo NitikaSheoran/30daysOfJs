@@ -41,3 +41,5 @@
 *Day 20: LocalStorage and SessionStorage*   &nbsp; &#10003;
 
 *Day 21: Leetcode easy*    &nbsp; &#10003;
+
+*Day 22: Leetcode medium*      &nbsp; &#10003;
