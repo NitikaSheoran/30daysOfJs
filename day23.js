@@ -135,3 +135,100 @@ var trap = function(height) {
     }
     return water;
 };
+
+// Activity 4: n queens
+
+/**
+ * @param {number} n
+ * @return {string[][]}
+ */
+
+var solveNQueens = function(n) {
+
+    const isSafe = (row, col, board) => {
+        // Check the same row
+        for (let i = 0; i < board.length; i++) {
+            if (board[row][i] === 'Q') {
+                return false;
+            }
+        }
+
+        // Check the same column
+        for (let i = 0; i < board.length; i++) {
+            if (board[i][col] === 'Q') {
+                return false;
+            }
+        }
+
+        // Check the upper left diagonal
+        let r = row;
+        let c = col;
+        while (r >= 0 && c >= 0) {
+            if (board[r][c] === 'Q') {
+                return false;
+            }
+            r--;
+            c--;
+        }
+
+        // Check the upper right diagonal
+        r = row;
+        c = col;
+        while (r >= 0 && c < board.length) {
+            if (board[r][c] === 'Q') {
+                return false;
+            }
+            r--;
+            c++;
+        }
+
+        // Check the lower left diagonal
+        r = row;
+        c = col;
+        while (r < board.length && c >= 0) {
+            if (board[r][c] === 'Q') {
+                return false;
+            }
+            r++;
+            c--;
+        }
+
+        // Check the lower right diagonal
+        r = row;
+        c = col;
+        while (r < board.length && c < board.length) {
+            if (board[r][c] === 'Q') {
+                return false;
+            }
+            r++;
+            c++;
+        }
+
+        return true;
+    };
+
+    const addSolution = (board, allBoards) => {
+        const newBoard = board.map(row => row.join(''));
+        allBoards.push(newBoard);
+    };
+
+    const placeQueens = (board, allBoards, col) => {
+        if (col === board.length) {
+            addSolution(board, allBoards);
+            return;
+        }
+        for (let i = 0; i < board.length; i++) {
+            if (isSafe(i, col, board)) {
+                board[i][col] = 'Q';
+                placeQueens(board, allBoards, col + 1);
+                board[i][col] = '.';
+            }
+        }
+    };
+
+ 
+    const board = Array.from({ length: n }, () => Array(n).fill('.'));
+    const allBoards = [];
+    placeQueens(board, allBoards, 0);
+    return allBoards;
+};
